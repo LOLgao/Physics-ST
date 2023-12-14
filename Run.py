@@ -20,10 +20,10 @@ from lib.TrainInits import print_model_parameters
 # *************************************************************************#
 Mode = 'train'
 DEBUG = 'False'
-DATASET = 'data/ode_data/ejd_in24_out24' 
+DATASET = 'data/ode_data/D1' 
 DEVICE = 'cuda:0'
 MODEL = 'PhysicsST'
-exp_dir = '/experiments/data/ode_data/ejd_in24_out24/ejd_24_best'
+exp_dir = '/experiments/data/ode_data/D1/24_best'
 
 # get configuration
 config_file = 'model/normal.conf'
